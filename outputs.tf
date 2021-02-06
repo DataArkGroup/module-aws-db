@@ -7,5 +7,5 @@ output "mysql_endpoint" {
 }
 
 output "redis_instance_id" {
-  value = aws_elasticache_cluster.ms_redis
+  value = aws_elasticache_cluster.redis-db
 }
